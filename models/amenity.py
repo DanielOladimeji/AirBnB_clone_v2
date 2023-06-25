@@ -1,11 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """ holds class Amenity"""
 import models
 from models.base_model import BaseModel, Base
-from os import getenv
-import sqlalchemy
+from os import getenv  # noqa
+import sqlalchemy  # noqa
 from sqlalchemy import Column, String
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship  # noqa
 
 
 class Amenity(BaseModel, Base):
